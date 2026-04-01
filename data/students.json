@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1775040563287",
+    "name": "Nikhil",
+    "email": "test@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T10:49:23.288Z",
+    "updatedAt": "2026-04-01T10:49:23.288Z"
+  },
+  {
+    "id": "1775053632879",
+    "name": "Nikhil",
+    "email": "nik@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:27:12.879Z",
+    "updatedAt": "2026-04-01T14:27:12.879Z"
+  },
+  {
+    "id": "1775054012900",
+    "name": "virat",
+    "email": "nik@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:33:32.900Z",
+    "updatedAt": "2026-04-01T14:33:32.900Z"
+  },
+  {
+    "id": "1775054344637",
+    "name": "dhoni",
+    "email": "dhno@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:39:04.637Z",
+    "updatedAt": "2026-04-01T14:39:04.637Z"
+  },
+  {
+    "id": 1,
+    "name": "nikhil",
+    "email": "dhno@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:39:36.992Z",
+    "updatedAt": "2026-04-01T14:39:36.992Z"
+  },
+  {
+    "id": 1,
+    "name": "nikhil",
+    "email": "dhno@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:39:40.168Z",
+    "updatedAt": "2026-04-01T14:39:40.168Z"
+  },
+  {
+    "id": 2,
+    "name": "nikhilll",
+    "email": "nikhil@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:40:02.190Z",
+    "updatedAt": "2026-04-01T14:40:02.190Z"
+  },
+  {
+    "id": "1775054694074",
+    "name": "nikhilll",
+    "email": "nikhil@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:44:54.074Z",
+    "updatedAt": "2026-04-01T14:44:54.074Z"
+  },
+  {
+    "id": 1,
+    "name": "nikhilll",
+    "email": "nikhil@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:45:08.959Z",
+    "updatedAt": "2026-04-01T14:45:08.959Z"
+  },
+  {
+    "id": 2,
+    "name": "virat",
+    "email": "nikhil@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:45:24.369Z",
+    "updatedAt": "2026-04-01T14:45:24.369Z"
+  },
+  {
+    "id": 2,
+    "name": "virat",
+    "email": "nikhil@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T14:45:29.031Z",
+    "updatedAt": "2026-04-01T14:45:29.031Z"
+  }
+]

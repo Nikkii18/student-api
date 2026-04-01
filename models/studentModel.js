@@ -1,54 +1,43 @@
 const fs = require('fs');
-const path = require('path');
+const path = './data/students.json';
 
-const filePath = path.join(__dirname, '../data/students.json');
+let students = [];
 
-// Ensure file exists
-if (!fs.existsSync(filePath)) {
-  fs.writeFileSync(filePath, JSON.stringify([]));
+// Load data
+if (fs.existsSync(path)) {
+  students = JSON.parse(fs.readFileSync(path));
 }
 
-// Read data
-const readData = () => {
-  const data = fs.readFileSync(filePath);
-  return JSON.parse(data);
+// Save to file
+const saveData = () => {
+  fs.writeFileSync(path, JSON.stringify(students, null, 2));
 };
 
-// Write data
-const writeData = (data) => {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-};
+const getAll = () => students;
 
-const getAll = () => readData();
-
-const getById = (id) => readData().find(s => s.id === id);
+const getById = (id) => students.find(s => s.id === id);
 
 const create = (student) => {
-  const students = readData();
   students.push(student);
-  writeData(students);
+  saveData();
   return student;
 };
 
 const update = (id, updatedData) => {
-  const students = readData();
   const index = students.findIndex(s => s.id === id);
-
   if (index === -1) return null;
 
   students[index] = { ...students[index], ...updatedData };
-  writeData(students);
+  saveData();
   return students[index];
 };
 
 const remove = (id) => {
-  const students = readData();
   const index = students.findIndex(s => s.id === id);
-
   if (index === -1) return false;
 
   students.splice(index, 1);
-  writeData(students);
+  saveData();
   return true;
 };
 

@@ -97,5 +97,14 @@
     "year": 2,
     "createdAt": "2026-04-01T14:45:29.031Z",
     "updatedAt": "2026-04-01T14:45:29.031Z"
+  },
+  {
+    "id": "1775056640367",
+    "name": "NIKHIL",
+    "email": "test@gmail.com",
+    "course": "CSE",
+    "year": 2,
+    "createdAt": "2026-04-01T15:17:20.397Z",
+    "updatedAt": "2026-04-01T15:17:20.397Z"
   }
 ]
